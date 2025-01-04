@@ -3,41 +3,29 @@
 This is a project for managing users with role-based access (Admin/User) with authentication and authorization. The application consists of two main parts: **Frontend (React)** and **Backend (Node.js with Express)**.
 
 - **Frontend**: A React app that handles user interaction, user profile, and admin dashboard.
-- **Backend**: A Node.js app with Express, connected to a MongoDB database. It handles user authentication, role-based access, and CRUD operations.
 
 You can view the live demo of the project hosted on Vercel at:
+[Live Demo - Role-Based Candidate Management System](https://rolebasedusermangmentproject.vercel.app/)
 
-[Live Demo - Role-Based User Management](https://rolebasedusermangmentproject.vercel.app/)
+- **Backend**: A Node.js app with Express, connected to a MongoDB database. It handles user authentication, role-based access, and CRUD operations.
 
----
+You can view the live demo of the project hosted on render at:
 
-## Table of Contents
-
-- [Frontend Setup](#frontend-setup)
-- [Backend Setup](#backend-setup)
-- [Running the App](#running-the-app)
-- [Tech Stack](#tech-stack)
-- [Environment Variables](#environment-variables)
+[Live Demo - Role-Based Candidate Management System](https://rolebasedusermangmentproject.onrender.com/api-docs/)
 
 ---
 
 ## Frontend Setup
+__________________
 
-### 1. Clone the repository
+##The frontend will be running on http://localhost:3000 and follow the below steps:
+    cd frontend
+    npm install
+    npm start
 
-```bash
-git clone https://github.com/your-username/role-based-user-management.git
-cd role-based-user-management
-
-cd frontend
-
-npm install
-
-npm start
-
-
-[](url)## **Backend Setup** #0000
-### Clone the repository:
+## Backend Setup
+__________________
+##The frontend will be running on http://localhost:5000 and follow the below steps:
 
 
 cd backend
