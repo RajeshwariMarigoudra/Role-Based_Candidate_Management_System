@@ -27,8 +27,6 @@ __________________
 
 ## Backend Setup
 __________________
-##The frontend will be running on http://localhost:5000 and follow the below steps:
-
 
 cd backend
 npm install
