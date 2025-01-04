@@ -1,0 +1,99 @@
+/* General Container Styles */
+.container {
+    background: linear-gradient(135deg, #f5f5f5, #ffffff);
+    padding: 50px 0;
+  }
+  
+  /* Profile Card Styles */
+  .user-profile-card {
+    background: rgba(255, 255, 255, 0.8); /* Transparent background */
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+    height: 370px;  /* Fixed height for the profile card */
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  
+  .user-profile-card.show {
+    transform: translateY(0);
+    opacity: 1;
+    height: 390px; 
+  }
+  
+  .user-profile-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-image {
+    width: 100px; /* Adjust size */
+    height: 100px; /* Adjust size */
+    border-radius: 50%; /* Circular shape */
+    object-fit: cover; /* Ensures the image fits nicely */
+    border: 2px solid #fff; /* Optional: Adds a border */
+  }
+  
+  .card-body {
+    padding: 2rem;
+    text-align: center;
+    color: #333;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the content vertically */
+  }
+  
+  /* Title and Subtitle Styles */
+  .card-title, .card-subtitle {
+    color: #333;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  
+  .card-text {
+    color: #777;
+    font-size: 1rem;
+  }
+  
+  /* Bar Chart Section */
+  .bar-chart-container {
+    background: rgba(255, 255, 255, 0.8); /* Transparent background */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    height: 390px;  /* Fixed height for the bar chart */
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  
+  .bar-chart-container.show {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .bar-chart-container:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+  }
+  
+  h3 {
+    font-size: 1.8rem;
+    color: #4e73df;
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive Design for Small Screens */
+  @media (max-width: 768px) {
+    .user-profile-card {
+      height: auto;  /* Allow the profile card to auto-adjust on small screens */
+    }
+  
+    .bar-chart-container {
+      height: auto;  /* Allow the chart to adjust its height on small screens */
+    }
+  }
+  
