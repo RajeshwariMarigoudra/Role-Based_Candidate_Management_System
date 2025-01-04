@@ -7,7 +7,7 @@ This is a project for managing users with role-based access (Admin/User) with au
 
 You can view the live demo of the project hosted on Vercel at:
 
-[Live Demo - Role-Based User Management]([https://rolebasedusermangmentproject.vercel.app/](url))
+[Live Demo - Role-Based User Management](https://rolebasedusermangmentproject.vercel.app/)
 
 ---
 
@@ -36,7 +36,7 @@ npm install
 npm start
 
 
-## **Backend Setup** #0000
+[](url)## **Backend Setup** #0000
 ### Clone the repository:
 
 
